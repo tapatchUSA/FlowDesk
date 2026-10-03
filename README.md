@@ -49,7 +49,7 @@ Search installed apps directly from FlowDesk without opening the Start menu or t
 - The installer comes in the same 10 languages
 - The Terms of Service are shown translated for convenience, with the official English (US) text, the only binding version, right below
 
-Release notes for every version are on the [Releases](https://github.com/tapatchUSA/FlowDesk/releases) page.
+Release notes for every version are on the [Releases](https://github.com/tapatchUSA/FlowDesk/releases) page and in [release-notes/](release-notes/).
 
 ## Install
 
