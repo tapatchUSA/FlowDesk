@@ -2,7 +2,7 @@
 <h1 align="center">FlowDesk</h1>
 <p align="center"><b>Launch and organize everything, perfectly.</b></p>
 <p align="center">App Launcher · Windows 10/11 · x64 · ~5 MB · Free for personal use</p>
-<p align="center"><a href="https://github.com/tapatchUSA/FlowDesk/releases/latest"><b>⬇ Download FlowDesk 1.0.2</b></a> &nbsp;·&nbsp; <a href="https://tapatch.com/tools/flowdesk/">tapatch.com/tools/flowdesk</a></p>
+<p align="center"><a href="https://github.com/tapatchUSA/FlowDesk/releases/latest"><b>⬇ Download FlowDesk 1.0.3</b></a> &nbsp;·&nbsp; <a href="https://tapatch.com/tools/flowdesk/">tapatch.com/tools/flowdesk</a></p>
 
 <p align="center">
 <img src="screenshots/flowdesk.png" alt="FlowDesk">
@@ -42,18 +42,16 @@ Search installed apps directly from FlowDesk without opening the Start menu or t
 
 - Scheduled tasks only run while FlowDesk is open. For persistent background scheduling, add FlowDesk itself to Windows startup.
 
-## What's new in 1.0.2
+## What's new in 1.0.3
 
-- Now in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean
-- Starts in your Windows language (English if yours isn't one of the 10). The first launch asks which language you want, and you can switch any time inside the app
-- The installer comes in the same 10 languages
-- The Terms of Service are shown translated for convenience, with the official English (US) text, the only binding version, right below
+- Now runs on any Windows 10 or 11 PC, even a fresh install: it no longer needs the Microsoft Visual C++ Redistributable (no more "VCRUNTIME140.dll was not found")
+- Nothing else changed
 
 Release notes for every version are on the [Releases](https://github.com/tapatchUSA/FlowDesk/releases) page and in [release-notes/](release-notes/).
 
 ## Install
 
-1. Download **FlowDesk-Setup-1.0.2.exe** from the [latest release](https://github.com/tapatchUSA/FlowDesk/releases/latest) or from [tapatch.com](https://tapatch.com/tools/flowdesk/).
+1. Download **FlowDesk-Setup-1.0.3.exe** from the [latest release](https://github.com/tapatchUSA/FlowDesk/releases/latest) or from [tapatch.com](https://tapatch.com/tools/flowdesk/).
 2. Run it. The installer and the app come in 10 languages.
 3. Accept the Terms of Service on first launch.
 
@@ -70,17 +68,18 @@ scoop install tapatch/flowdesk
 
 | Version | Released | Installer | VirusTotal | SHA-256 |
 |---|---|---|---|---|
+| [1.0.3](https://github.com/tapatchUSA/FlowDesk/releases/tag/v1.0.3) | 2026-10-17 | [FlowDesk-Setup-1.0.3.exe](https://github.com/tapatchUSA/FlowDesk/releases/download/v1.0.3/FlowDesk-Setup-1.0.3.exe) | [2 / 70](https://www.virustotal.com/gui/file/efdb9550689ce2a288d7bc7b327bd70468db9dd5c09af37e4cc9b30cdc610486/detection) | `efdb9550689ce2a2…` |
 | [1.0.2](https://github.com/tapatchUSA/FlowDesk/releases/tag/v1.0.2) | 2026-10-01 | [FlowDesk-Setup-1.0.2.exe](https://github.com/tapatchUSA/FlowDesk/releases/download/v1.0.2/FlowDesk-Setup-1.0.2.exe) | [1 / 70](https://www.virustotal.com/gui/file/8a6c6ce4c3ae5798f9e5b59186103498d5664c08be210db9fd7f57b8ed388113/detection) | `8a6c6ce4c3ae5798…` |
 | [1.0.1](https://github.com/tapatchUSA/FlowDesk/releases/tag/v1.0.1) | 2026-09-30 | [FlowDesk-Setup-1.0.1.exe](https://github.com/tapatchUSA/FlowDesk/releases/download/v1.0.1/FlowDesk-Setup-1.0.1.exe) | [2 / 69](https://www.virustotal.com/gui/file/85520c658f85537281a053c75b59a6b6250b3f8e627bcc8ecac0ed106abc6528/detection) | `85520c658f855372…` |
 | [1.0.0](https://github.com/tapatchUSA/FlowDesk/releases/tag/v1.0.0) | 2026-04-11 | [FlowDesk-Setup-1.0.0.exe](https://github.com/tapatchUSA/FlowDesk/releases/download/v1.0.0/FlowDesk-Setup-1.0.0.exe) | [2 / 71](https://www.virustotal.com/gui/file/658428e92fae27ad736cad9cdb06bcda28692245bcafc79e1a0bb0686d1eef0a/detection) | `658428e92fae27ad…` |
 
 ## Security
 
-Every installer is scanned on VirusTotal before release. FlowDesk 1.0.2: **1 / 70** engines flag it · [view report](https://www.virustotal.com/gui/file/8a6c6ce4c3ae5798f9e5b59186103498d5664c08be210db9fd7f57b8ed388113/detection)
+Every installer is scanned on VirusTotal before release. FlowDesk 1.0.3: **2 / 70** engines flag it · [view report](https://www.virustotal.com/gui/file/efdb9550689ce2a288d7bc7b327bd70468db9dd5c09af37e4cc9b30cdc610486/detection)
 
 **SHA-256**
 ```
-8a6c6ce4c3ae5798f9e5b59186103498d5664c08be210db9fd7f57b8ed388113
+efdb9550689ce2a288d7bc7b327bd70468db9dd5c09af37e4cc9b30cdc610486
 ```
 
 ## Built with
