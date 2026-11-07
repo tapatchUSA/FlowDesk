@@ -14,8 +14,6 @@
 
 FlowDesk is a unified task launcher and scheduler. Pin apps, scripts, folders, and URLs, organise them into categories, and schedule anything to run at a time or interval — with optional UAC elevation. Import and export your setup as JSON. Everything in one tight interface, nothing in the system tray you didn't ask for.
 
-[![Watch on YouTube](https://img.youtube.com/vi/tcTqnHmmaUw/hqdefault.jpg)](https://www.youtube.com/watch?v=tcTqnHmmaUw)
-
 ## Features
 
 Built to handle everything you throw at it. Here are the highlights.
@@ -69,7 +67,7 @@ scoop install tapatch/flowdesk
 
 | Version | Released | Installer | VirusTotal | SHA-256 |
 |---|---|---|---|---|
-| [1.0.5](https://github.com/tapatchUSA/FlowDesk/releases/tag/v1.0.5) | 2026-11-04 | [FlowDesk-Setup-1.0.5.exe](https://github.com/tapatchUSA/FlowDesk/releases/download/v1.0.5/FlowDesk-Setup-1.0.5.exe) | [1 / 71](https://www.virustotal.com/gui/file/5fffbdf8162e513bbad89ed293fcf420989e8f6f4144dc635014e641dce5740f/detection) | `5fffbdf8162e513b…` |
+| [1.0.5](https://github.com/tapatchUSA/FlowDesk/releases/tag/v1.0.5) | 2026-11-05 | [FlowDesk-Setup-1.0.5.exe](https://github.com/tapatchUSA/FlowDesk/releases/download/v1.0.5/FlowDesk-Setup-1.0.5.exe) | [1 / 71](https://www.virustotal.com/gui/file/5fffbdf8162e513bbad89ed293fcf420989e8f6f4144dc635014e641dce5740f/detection) | `5fffbdf8162e513b…` |
 | [1.0.4](https://github.com/tapatchUSA/FlowDesk/releases/tag/v1.0.4) | 2026-10-18 | [FlowDesk-Setup-1.0.4.exe](https://github.com/tapatchUSA/FlowDesk/releases/download/v1.0.4/FlowDesk-Setup-1.0.4.exe) | [1 / 69](https://www.virustotal.com/gui/file/db3dd5bad488f476768a30a214e8dc9d9561dcd3f0d82e929082e88b989f640e/detection) | `db3dd5bad488f476…` |
 | [1.0.3](https://github.com/tapatchUSA/FlowDesk/releases/tag/v1.0.3) | 2026-10-17 | [FlowDesk-Setup-1.0.3.exe](https://github.com/tapatchUSA/FlowDesk/releases/download/v1.0.3/FlowDesk-Setup-1.0.3.exe) | [1 / 70](https://www.virustotal.com/gui/file/efdb9550689ce2a288d7bc7b327bd70468db9dd5c09af37e4cc9b30cdc610486/detection) | `efdb9550689ce2a2…` |
 | [1.0.2](https://github.com/tapatchUSA/FlowDesk/releases/tag/v1.0.2) | 2026-10-01 | [FlowDesk-Setup-1.0.2.exe](https://github.com/tapatchUSA/FlowDesk/releases/download/v1.0.2/FlowDesk-Setup-1.0.2.exe) | [1 / 71](https://www.virustotal.com/gui/file/8a6c6ce4c3ae5798f9e5b59186103498d5664c08be210db9fd7f57b8ed388113/detection) | `8a6c6ce4c3ae5798…` |
