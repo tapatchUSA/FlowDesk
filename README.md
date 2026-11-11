@@ -2,7 +2,7 @@
 <h1 align="center">FlowDesk</h1>
 <p align="center"><b>Launch and organize everything, perfectly.</b></p>
 <p align="center">App Launcher · Windows 10/11 · x64 · ~5 MB · Free for personal use</p>
-<p align="center"><a href="https://github.com/tapatchUSA/FlowDesk/releases/latest"><b>⬇ Download FlowDesk 1.0.6</b></a> &nbsp;·&nbsp; <a href="https://tapatch.com/tools/flowdesk/">tapatch.com/tools/flowdesk</a></p>
+<p align="center"><a href="https://github.com/tapatchUSA/FlowDesk/releases/latest"><b>⬇ Download FlowDesk 1.0.7</b></a> &nbsp;·&nbsp; <a href="https://tapatch.com/tools/flowdesk/">tapatch.com/tools/flowdesk</a></p>
 
 <p align="center">
 <img src="screenshots/flowdesk.png" alt="FlowDesk">
@@ -40,16 +40,16 @@ Search installed apps directly from FlowDesk without opening the Start menu or t
 
 - Scheduled tasks only run while FlowDesk is open. For persistent background scheduling, add FlowDesk itself to Windows startup.
 
-## What's new in 1.0.6
+## What's new in 1.0.7
 
-- Arrows, check marks and other symbols no longer show as empty boxes
-- The English text now uses American spelling everywhere
+- Now opens in virtual machines, Remote Desktop and on PCs without a graphics driver: it switches to Direct3D 12 when OpenGL doesn't work
+- If the window still can't open, a message says why instead of the app closing without a word
 
 Release notes for every version are on the [Releases](https://github.com/tapatchUSA/FlowDesk/releases) page and in [release-notes/](release-notes/).
 
 ## Install
 
-1. Download **FlowDesk-Setup-1.0.6.exe** from the [latest release](https://github.com/tapatchUSA/FlowDesk/releases/latest) or from [tapatch.com](https://tapatch.com/tools/flowdesk/).
+1. Download **FlowDesk-Setup-1.0.7.exe** from the [latest release](https://github.com/tapatchUSA/FlowDesk/releases/latest) or from [tapatch.com](https://tapatch.com/tools/flowdesk/).
 2. Run it. The installer and the app come in 10 languages.
 3. Accept the Terms of Service on first launch.
 
@@ -66,6 +66,7 @@ scoop install tapatch/flowdesk
 
 | Version | Released | Installer | VirusTotal | SHA-256 |
 |---|---|---|---|---|
+| [1.0.7](https://github.com/tapatchUSA/FlowDesk/releases/tag/v1.0.7) | 2026-11-11 | [FlowDesk-Setup-1.0.7.exe](https://github.com/tapatchUSA/FlowDesk/releases/download/v1.0.7/FlowDesk-Setup-1.0.7.exe) | [0 / 70](https://www.virustotal.com/gui/file/5cc2118ce29e87f0b5d5de0682b6c25e247eaee26dc241ecd890e6a350f31163/detection) | `5cc2118ce29e87f0…` |
 | [1.0.6](https://github.com/tapatchUSA/FlowDesk/releases/tag/v1.0.6) | 2026-11-07 | [FlowDesk-Setup-1.0.6.exe](https://github.com/tapatchUSA/FlowDesk/releases/download/v1.0.6/FlowDesk-Setup-1.0.6.exe) | [1 / 71](https://www.virustotal.com/gui/file/d404ca51ceb735d652f3ee57417e1f1f0bc21ce133b3c24c6509a86054c88b3c/detection) | `d404ca51ceb735d6…` |
 | [1.0.5](https://github.com/tapatchUSA/FlowDesk/releases/tag/v1.0.5) | 2026-11-05 | [FlowDesk-Setup-1.0.5.exe](https://github.com/tapatchUSA/FlowDesk/releases/download/v1.0.5/FlowDesk-Setup-1.0.5.exe) | [1 / 71](https://www.virustotal.com/gui/file/5fffbdf8162e513bbad89ed293fcf420989e8f6f4144dc635014e641dce5740f/detection) | `5fffbdf8162e513b…` |
 | [1.0.4](https://github.com/tapatchUSA/FlowDesk/releases/tag/v1.0.4) | 2026-10-18 | [FlowDesk-Setup-1.0.4.exe](https://github.com/tapatchUSA/FlowDesk/releases/download/v1.0.4/FlowDesk-Setup-1.0.4.exe) | [1 / 69](https://www.virustotal.com/gui/file/db3dd5bad488f476768a30a214e8dc9d9561dcd3f0d82e929082e88b989f640e/detection) | `db3dd5bad488f476…` |
@@ -76,11 +77,11 @@ scoop install tapatch/flowdesk
 
 ## Security
 
-Every installer is scanned on VirusTotal before release. FlowDesk 1.0.6: **1 / 71** engines flag it · [view report](https://www.virustotal.com/gui/file/d404ca51ceb735d652f3ee57417e1f1f0bc21ce133b3c24c6509a86054c88b3c/detection)
+Every installer is scanned on VirusTotal before release. FlowDesk 1.0.7: **0 / 70** engines flag it · [view report](https://www.virustotal.com/gui/file/5cc2118ce29e87f0b5d5de0682b6c25e247eaee26dc241ecd890e6a350f31163/detection)
 
 **SHA-256**
 ```
-d404ca51ceb735d652f3ee57417e1f1f0bc21ce133b3c24c6509a86054c88b3c
+5cc2118ce29e87f0b5d5de0682b6c25e247eaee26dc241ecd890e6a350f31163
 ```
 
 ## Built with
